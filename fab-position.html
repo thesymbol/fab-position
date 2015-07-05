@@ -1,6 +1,6 @@
 <link rel="import" href="../polymer/polymer.html"/>
 
-<dom-module id="fab-position" attributes="mode">
+<dom-module id="fab-position">
     <style>
     /*
     * the different margins are from the material guidelines found here:
@@ -39,13 +39,19 @@
     }
     </style>
     <template>
-        <div id="position" class="[[mode]]">
+        <div id="position" class$="{{mode}}">
             <content></content>
         </div>
     </template>
     <script>
         Polymer({
-
+            is: 'fab-position',
+            properties: {
+                mode: {
+                    type: String,
+                    notify: true
+                }
+            }
         });
     </script>
 </dom-module>
