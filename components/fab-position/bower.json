@@ -1,0 +1,14 @@
+{
+  "name": "fab-position",
+  "version": "0.0.2",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "paper-fab": "PolymerElements/paper-fab#^1.0.0",
+    "paper-header-panel": "PolymerElements/paper-header-panel#^1.0.0",
+    "paper-toolbar": "PolymerElements/paper-toolbar#^1.0.0"
+  },
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.0.3"
+  }
+}

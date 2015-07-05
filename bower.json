@@ -1,0 +1,7 @@
+{
+  "name": "fab-position#gh-pages",
+  "private": true,
+  "dependencies": {
+    "fab-position": "thesymbol/fab-position#master"
+  }
+}
