@@ -31,29 +31,29 @@
         </style>
 
     </head>
-    <body fullbleed layout vertical unresolved>
+    <body class="fullbleed layout vertical unresolved">
         <paper-header-panel class="flex">
             <paper-toolbar>
-                <fab-position mode="bottom-overflow">
+                <fab-position mode="bottom-overflow left">
                     <paper-fab icon="add"></paper-fab>
                 </fab-position>
-                <div flex>fab-position demo</div>
+                <div class="flex">fab-position demo</div>
             </paper-toolbar>
 
-            <div id="content" fit layout grid>
+            <div id="content" class="fit layout grid">
 
-                <div id="example1" relative>
+                <div id="example1" class="relative">
 
-                    <p>Here the button how it would float in a relative box.</p>
+                    <p>Here the button how it would float in a relative box in "floating left" mode.</p>
 
-                    <fab-position mode="floating">
+                    <fab-position mode="floating left">
                         <paper-fab icon="add"></paper-fab>
                     </fab-position>
                 </div>
             </div>
 
             <footer>
-                <fab-position mode="top-overflow">
+                <fab-position mode="top-overflow right">
                     <paper-fab></paper-fab>
                 </fab-position>
             </footer>

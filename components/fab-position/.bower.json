@@ -11,11 +11,11 @@
     "polymer": "Polymer/polymer#~1.0.3"
   },
   "homepage": "https://github.com/thesymbol/fab-position",
-  "_release": "7ba654a3b5",
+  "_release": "7584045832",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "7ba654a3b5d4bdcc74810442b1e8b38c8b2d277d"
+    "commit": "7584045832a2681d23fef4bd57165b87e02a5dd0"
   },
   "_source": "git://github.com/thesymbol/fab-position.git",
   "_target": "master",

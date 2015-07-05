@@ -2,6 +2,9 @@
   "name": "fab-position#gh-pages",
   "private": true,
   "dependencies": {
-    "fab-position": "thesymbol/fab-position#master"
+    "fab-position": "thesymbol/fab-position#master",
+    "iron-component-page": "PolymerElements/iron-component-page#~1.0.5",
+    "web-component-tester": "Polymer/web-component-tester#~3.2.0",
+    "paper-fab": "PolymerElements/paper-fab#~1.0.2"
   }
 }
